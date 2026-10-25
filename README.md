@@ -59,3 +59,13 @@ Status legend:
 All results were obtained by loading each signup page in headless Chromium via Playwright,
 enumerating `input`/`select` elements with name/type/required flags, and grepping page text
 for phone/SMS mentions and free-trial wording. See INSTRUCTIONS.md for the full procedure.
+
+## E. Additional turnkey-domain candidates (added 2026-10-25, later run)
+
+| Provider | Domain given | Free | Signup URL | Status |
+|---|---|---|---|---|
+| mail.ee | @mail.ee (Estonian, Inbox.eu group) | Free account | https://login.mail.ee/signup?go=portal | 🟡 form did not render headless (bot protection), no phone mentions on portal |
+| Mailo (mailo.com) | @mailo.com (French) | Free plan | https://www.mailo.com/mailo/auth/signup.php | 🟡 form did not render headless, no phone mentions on landing |
+| GMX (gmx.com) | @gmx.com | Free | https://www.gmx.com/mail/ | 🟡 consent wall blocks headless; same 1&1 group as mail.com |
+
+Previously listed turnkey entries (section A): Neo, mail.com, Mailum, Tuta, Mailfence, eclipso.
