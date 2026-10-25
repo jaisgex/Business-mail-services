@@ -69,3 +69,18 @@ for phone/SMS mentions and free-trial wording. See INSTRUCTIONS.md for the full 
 | GMX (gmx.com) | @gmx.com | Free | https://www.gmx.com/mail/ | 🟡 consent wall blocks headless; same 1&1 group as mail.com |
 
 Previously listed turnkey entries (section A): Neo, mail.com, Mailum, Tuta, Mailfence, eclipso.
+
+## F. Third batch of new providers (2026-10-25)
+
+| Provider | Domain given | Free | Signup URL | Status | Notes |
+|---|---|---|---|---|---|
+| firemail.de | @firemail.de | Free ("kostenlose E-Mail-Adresse") | https://firemail.de/index.php?action=signup | ✅ | German niche provider; form: address, password (min 10 chars), required alternate email, captcha, TOS. SMS field (mail2sms_nummer) is optional and only for a Germany-only SMS feature |
+| postmaster.co.uk | @postmaster.co.uk | Free, ad-free | https://www.postmaster.co.uk/new-postmaster-account-registration | ✅ | Old-school UK provider; form: name, username, email, password, birthday, recovery email, captcha — no phone field at all |
+| mail2world.com | Choice of 2000+ domains (@mail2art.com …) via select | Free | https://www.mail2world.com/v1/sig/ | ⚠️ | Form has optional phone (req:false) but a required "Enter verification code" tel field — possible SMS verification; verify manually before relying on it |
+| inbox.lv | @inbox.lv (Latvian) | Free | https://www.inbox.lv/en/signup | 🟡 | JS form did not render headless; no phone mentions on portal |
+| net-c.com | Multiple net-c domains (French/Belgian) | Free | https://www.net-c.com/en/ | 🟡 | Same platform as Mailo (signup redirects to /mailo/auth/signup.php) |
+
+## Rejected in this batch
+
+- mail.de — signup REQUIRES a German mobile number (Mobilfunknummer, required:true) with validation code. Do not use.
+- mail.bg — connection refused, site down.
